@@ -22,6 +22,13 @@ to see all the version : git log
 BUILD DOCKER IMAGE
 ```
 docker image : docker build -t <image_name>:<tagname> .
+List Docker Images : docker images
+
+run docker: docker run -p 5000:5000 -e PORT=5000 85077eef823f
+
+to check running containers: docker ps
+
+to stop container : docker stop <container_id>
 
 ```
 
