@@ -32,3 +32,7 @@ to stop container : docker stop <container_id>
 
 ```
 
+to install requirements.
+```
+  python setup.py install  
+```
